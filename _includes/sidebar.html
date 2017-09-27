@@ -22,7 +22,7 @@
           <div class="mini-posts">
 						{% for post in site.posts %}
             <article>
-							<a href="#" class="image">
+							<a href="{{post.url | prepend: site.baseurl }}" class="image">
 								{% if post.image %}
 									<img src="{{ '/assets/images/pic07.jpg' | prepend: site.baseurl}}" alt="" /></a>
 								{% else %}
