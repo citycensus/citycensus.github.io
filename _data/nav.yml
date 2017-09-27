@@ -1,0 +1,11 @@
+nav:
+  - title: City Census
+    url: /
+  - title: Die Idee
+    url: /idee
+  - title: Projetkplan
+    url: /plan
+  - title: Team
+    url: /team
+  - title: News
+    url: /news

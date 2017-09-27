@@ -1,0 +1,47 @@
+<!-- Sidebar -->
+  <div id="sidebar">
+    <div class="inner">
+
+      <!-- Menu -->
+        <nav id="menu">
+          <header class="major">
+            <h2>Menu</h2>
+          </header>
+          <ul>
+						{% for page in site.data.nav.nav %}
+							<li><a href="{{ page.url | prepend: site.baseurl }}">{{page.title}}</a></li>
+						{% endfor %}
+          </ul>
+        </nav>
+
+      <!-- Section -->
+        <section>
+          <header class="major">
+            <h2>News</h2>
+          </header>
+          <div class="mini-posts">
+						{% for post in site.posts %}
+            <article>
+							<a href="#" class="image">
+								{% if post.image %}
+									<img src="{{ '/assets/images/pic07.jpg' | prepend: site.baseurl}}" alt="" /></a>
+								{% else %}
+									{{post.title}}
+								{% endif %}
+              <p></p>
+            </article>
+						{% endfor %}
+          </div>
+          <ul class="actions">
+            <li><a href="/news" class="button">More</a></li>
+          </ul>
+        </section>
+
+
+      <!-- Footer -->
+        <footer id="footer">
+          <p class="copyright">&copy; {{ site.title }}. All rights reserved. Design: <a href="https://html5up.net">HTML5 UP</a>. Jekyll integration: <a href="https://andrewbanchi.ch">Andrew Banchich</a>.</p>
+        </footer>
+
+    </div>
+  </div>

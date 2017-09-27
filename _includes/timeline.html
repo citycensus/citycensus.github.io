@@ -1,0 +1,22 @@
+<div class="history">
+    <div class="cd-timeline-header">
+        <h2 id="Experenice">Project Timeline</h2>
+        <hr class="bar" />
+    </div>
+    <section id="cd-timeline" class="cd-container">
+			{% for item in site.data.timeline %}
+        <div class="cd-timeline-block">
+					<div class="cd-timeline-img cd-picture"><i class="fa {{item.icon}}"></i></div>
+            <!-- cd-timeline-img-->
+            <div class="cd-timeline-content">
+							<h2 class="story-heading">{{item.title}}</h2>
+								{{item.text | markdownify}}
+								<span class="cd-date">{{item.date}}</span></div>
+            <!-- cd-timeline-content-->
+            <!-- cd-timeline-block-->
+        </div>
+				{% endfor %}
+    </section>
+    <div class="cd-timeline-header">
+        <h2></h2></div>
+</div>
