@@ -1,11 +1,15 @@
 nav:
   - title: City Census
     url: /
+  - title: Das Projekt
+    url: /projekt
   - title: Die Idee
     url: /idee
   - title: Projetkplan
     url: /plan
   - title: Team
     url: /team
-  - title: News
-    url: /news
+  - title: Open Data in Deutschland
+    url: /odd
+  - title: Fortschritt
+    url: /fortschritt

@@ -1,8 +1,9 @@
 ---
+title: Fortschritt
 layout: page
-title: News
-permalink: /news/
+permalink: "/fortschritt/"
 ---
+
 <ul>
 	{% for post in site.posts %}
 	<li>
