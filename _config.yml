@@ -7,7 +7,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  city-census
 
 # Build settings
 markdown: kramdown
@@ -22,6 +22,13 @@ sass:
   sass_dir: _sass
 
 permalink: /news/:year/:month/:day/:title.html
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

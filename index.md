@@ -29,7 +29,7 @@ layout: default
 		{% for post in site.posts %}
 		<article>
 			{% if post.image %}
-			<a href="#" class="image"><img src="assets/images/pic01.jpg" alt="" /></a>
+        <a href="#" class="image"><img src="{{ post.image | prepend: '/assets/images/' | prepend: site.baseurl | absolute_url }}" alt="" /></a>
 			{% endif %}
 			<h3>{{post.title}}</h3>
 			<p></p>
