@@ -4,10 +4,28 @@
   text: |
     Am 1.9.2017 ist das Projekt offiziell gestartet.
 - title: "Workshop: User-Centric Design"
-  icon: fa-rocket
+  icon: fa-user-circle
   date: "25. Sept. 2017"
   text: ""
 - title: "Berlin Open Data Day"
-  icon: fa-rocket
+  icon: fa-microphone
   date: "4. Okt. 2017"
+  text: |
+    Zum Berlin Open Data Day werde ich versuchen mit Vertretern der Stadt Berlin ins Gespräch zu kommen
+    um meine ersten Annahmen zu überprüfen.
+- title: "Arbeit an Wireframes & Kategorien"
+  icon: fa-paint-brush
+  date: "Okt. 2017"
+  text: |
+    Im Oktober ist geplant an ersten Wireframes zu arbeiten, die miut usern getestet werden können. 
+    Außerdem werde ich an ersten Vorschlägen für detusche Kategorien arbeiten.
+- title: "Workshop Konzept: Testing mit Kommunen"
+  icon: fa-group
+  date: "Okt. 2017"
+  text: |
+    Mitte/Ende Oktober werde ich an einem Workshop Komzept arbeiten um möglichst viel Feedback von Kommunen zu bekommen.
+- title: "Iteration Wireframes"
+  icon: fa-paint-brush
+  date: "Nov. 2017"
   text: ""
+
